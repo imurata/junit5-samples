@@ -10,8 +10,20 @@
 
 package com.example.project;
 
+/**
+ * Calculatorクラスのコメント
+ * 
+ * @author hogehoge
+ */
 public class Calculator {
 
+	/**
+	 * addは引数の和を返します
+	 * 
+	 * @param a 第一引数
+	 * @param b 第二引数
+	 * @return 第一引数と第二引数の和
+	 */
 	public int add(int a, int b) {
 		return a + b;
 	}
